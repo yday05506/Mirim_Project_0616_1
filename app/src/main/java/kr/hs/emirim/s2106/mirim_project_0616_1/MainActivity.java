@@ -24,5 +24,7 @@ public class MainActivity extends TabActivity {
         TabHost.TabSpec spec3 = host.newTabSpec("tab3").setIndicator("박재찬");
         spec3.setContent(R.id.tab3);
         host.addTab(spec3);
+
+        host.setCurrentTab(1);
     }
 }
